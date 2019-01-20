@@ -1,0 +1,23 @@
+{
+  "name": "bit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@bit/ytakkar.math.utils.add": "^1.0.2",
+    "@bit/ytakkar.math.utils.divide": "^1.0.0",
+    "@bit/ytakkar.math.utils.multiply": "^1.0.0",
+    "@bit/ytakkar.math.utils.subtract": "^1.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^1.11.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "export": "bit export ytakkar.math",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
